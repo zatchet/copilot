@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<!-- This is a website abotu Github Copilot -->
+<html>
+<head>
+    <title>GitHub Copilot</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="https://static.pingendo.com/bootstrap/bootstrap-4.3.1.css">
+    <!--import app.css style-->
+    <link rel="stylesheet" href="app.css">
+    <style>
+        body {
+            padding-left: 20px; /* Adjust the value as needed */
+            padding-right: 20px; /* Adjust the value as needed */
+            padding-top: 20px; /* Adjust the value as needed */
+        }
+    </style>
+</head>
+<!-- Body -->
+<body>
+    <!--Header-->
+    <!--The header will be very simple and will jsut show the title of the web page at the top-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">GitHub Copilot: A Website About AI, by AI</a>
+    </nav>
+    <br/>
+    
+    <!-- First fill be tabs, one for overview, and one for interactive -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" href="#overview" data-toggle="tab">Overview</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#interactive" data-toggle="tab">Copilot in Action</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#thoughts" data-toggle="tab">My Thoughts</a>
+        </li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane fade" id="thoughts">
+            <br/>
+            <h1>We should <span style="color: red; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: bold;"> tread lightly </span>with Copilot</h1>
+            <p>Copilot is a powerful tool, and it's only going to get better. It's so powerful that people will start to place more and more trust in it and pay less and less attention to the code it generates. This is extremely dangerous.
+               As seen on this website, Copilot code is riddled with issues. While it can be extremely helpful, it should not be blindly trusted.</p>
+            <p>I think Copilot can be <span style="font-style: italic;">very</span> detremental in computer science education. I've used it to help me code for school assignments many times, but I'm fortunate to have developed a strong foundation in programming before using it, so I can identify and correct its mistakes. Students just learning to code today might not have that luxury.</p>
+            <p>Whether you're a student, a developer, an educator, or a business leader, it is important to educate ourselves and those around us on the dangers of Copilot and how to use it properly. Over-reliance is the enemy.</p>
+            <p>Remember, buggy code can cause <a href="https://en.wikipedia.org/wiki/Mariner_1#Launch_failure" target="_blank"> spaceships to explode.</a> </p>
+            <div style="align-content: center; display: flex; justify-content: center;">
+                <img src="https://logolook.net/wp-content/uploads/2023/10/Pondering-Expression.png" alt="GitHub Copilot" style="width: 10%;">
+            </div>
+        </div>
+        <div class="tab-pane fade show active" id="overview">
+            <br/>
+            <h1>GitHub Copilot: An Overview</h1>
+            <img src="https://miro.medium.com/v2/resize:fit:1400/1*6E7hnj0LbY4Ax4Ye2HlxDw.png" alt="GitHub Copilot" style="width: 20%;">
+            <!-- What is Copilot?-->
+            <h2>What is Copilot?</h2>
+            <p>Released in 2021 by Microsoft and OpenAI, GitHub Copilot is an AI pair programmer that helps you write code faster and with less effort. It is powered by OpenAI's Codex, a machine learning model trained on a diverse range of public code repositories. Copilot can generate code suggestions, write entire functions, and even complete entire lines of code based on the context of your project.</p>
+            <!-- button go copilto website-->
+            
+            
+            <!-- How does Copilot work?-->
+            <h2>How does Copilot work?</h2>
+            <p>Copilot works by analyzing the code you've already written as well as in-line comments to generate code suggestions. It uses machine learning to predict what code you might want to write next and offers suggestions in real-time as you type.</p>
+            
+            <img src="https://code.visualstudio.com/assets/docs/copilot/overview/js-suggest.png" style="width: 50%; border: 3px solid rgb(84, 157, 157); border-radius: 15px;">
+            <br/>
+            <br/>
+            <!-- What are the benefits of using Copilot?-->
+
+            <h2>What are the <span style="font-weight: 500;">benefits</span>?</h2>
+            <ul>
+                <li>Productivity increase: <a href="https://drive.google.com/file/d/1BL0FKcdjBi4Ei8iLgt_tOudcqCnVLL-R/view?usp=sharing" target="_blank">Research</a> has shown that programmers can complete tasks <span style="color: green; font-weight: 700; font-size: large;">55.8%</span> faster when using Copilot.</li>
+                <li>Learn new programming languages: Copilot can be useful tool to learn new programming languages by providing code examples and suggestions.</li>
+            </ul>
+            <!-- What are the drawbacks of using Copilot?-->
+            <h2>What are the <span style="font-weight: 500;">drawbacks</span>?</h2>
+            <ul>
+                <li>Correctness: Copilot generated solutions to problems are not always functionally correct.</li>
+                <li>Code quality: Copilot may generate code that is not effficient and/or does not adhere to common design principles and programming paradigms.</li>
+                <li>Security: Copilot may generate code that is vulnerable to security threats, such as <a href="https://en.wikipedia.org/wiki/SQL_injection" target="_blank">SQL injection</a> or <a href="https://en.wikipedia.org/wiki/Cross-site_scripting" target="_blank">cross site scripting</a>.</li>
+                <li>Dependency on AI: Copilot may lead to a dependency on AI for coding tasks, reducing the need for developers to learn and understand programming concepts.</li>
+                <li>Privacy concerns: Copilot may raise privacy concerns, as it analyzes your code and project context to generate suggestions.</li>
+            </ul> 
+            <br/>
+            <a href="https://copilot.github.com/" target="_blank" class="btn btn-primary">Learn more</a>
+            <br/>
+        </div>
+        <div class="tab-pane fade" id="interactive">
+            <br/>
+            <h1>How Good Actually is Copilot?</h1>
+            <p1>Below is a series of prompts that were fed to Copilot along with the result of the code it produced. The resulting code was not tampered with any way.</p1>
+
+            <hr>
+            <p1 style="font-weight: 700;">Level 1: "Create a slider that will change the background color of the page gradually"</p1>
+            <br />
+            <!-- Create a slider that will change the background color of the page gradually -->
+            <input type="range" min="0" max="255" value="0" id="slider" oninput="changeColor()">
+            <script>
+                function changeColor() {
+                    var slider = document.getElementById("slider");
+                    var value = slider.value;
+                    document.body.style.backgroundColor = "rgb(" + value + ", " + value + ", " + value + ")";
+                }
+            </script>
+            <br />
+            <p1 style="color: green; font-weight: bold;">PASS</p1>
+            <br />
+            <hr>
+            <br />
+            <!-- Create a button that when clicked, will open up a modal that says Hello-->
+            <p1 style="font-weight: 700;">Level 2: "Create a button that when clicked, will open up a modal that says Hello"</p1>
+            <br />
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Open Modal
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Hello</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <p1 style="color: green; font-weight: bold;">PASS</p1>
+            <br />
+            <hr>
+            <br />
+            <!-- Create a button that when clicked, will open up a modal that says Hello-->
+            <p1 style="font-weight: 700;">Level 3: "Create a 3 by 3 grid that represents a tic tac toe game"</p1>
+            <br />
+            <!-- Create a 3 by 3 grid that represents a tic tac toe game.-->
+            <style>
+                table {
+                    width: 30%;
+                    height: 300px;
+                }
+                td {
+                    width: 33.33%;
+                    height: 33.33%;
+                    border: 1px solid black;
+                    text-align: center;
+                    vertical-align: middle;
+                    font-size: 2em;
+                }
+            </style>
+            <table>
+                <tr>
+                    <td id="0" onclick="play(this)"></td>
+                    <td id="1" onclick="play(this)"></td>
+                    <td id="2" onclick="play(this)"></td>
+                </tr>
+                <tr>
+                    <td id="3" onclick="play(this)"></td>
+                    <td id="4" onclick="play(this)"></td>
+                    <td id="5" onclick="play(this)"></td>
+                </tr>
+                <tr>
+                    <td id="6" onclick="play(this)"></td>
+                    <td id="7" onclick="play(this)"></td>
+                    <td id="8" onclick="play(this)"></td>
+                </tr>
+            </table>
+            <script>
+                var player = "X";
+                function play(cell) {
+                    if (cell.innerHTML == "") {
+                        cell.innerHTML = player;
+                        if (player == "X") {
+                            player = "O";
+                        } else {
+                            player = "X";
+                        }
+                    }
+                }
+            </script>
+            <p1 style="color: green; font-weight: bold;">PASS</p1>
+            <br />
+            <hr>
+
+            <p1 style="font-weight: 700;">Level 4: "Create a fake sign up form with first name, last name, and email, with a button to submit. When submitted, the data should be inserted into a table that stores all of the information"</p1>
+            <br />
+
+            <!-- Create a fake sign up form with first name, last name, and email, with a button to submit-->
+            <!-- when submitted, the data should be inserted into a table that stores all of the information-->
+            <form>
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                </div>
+                <div class="form-group
+                ">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                </div>
+                <div class="form-group
+                ">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+                <button type="button" class="btn btn-primary" onclick="submit()">Submit</button>
+            </form>
+            <table class="table" style="height: 0%;">
+                <thead style="height: 0%;">
+                    <tr>
+                        <th scope="col">First Name</th>
+                        <th scope="col">Last Name</th>
+                        <th scope="col">Email</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody" style="height: 0%;">
+                </tbody>
+            </table>
+            <script>
+                function submit() {
+                    var firstName = document.getElementById("firstName").value;
+                    var lastName = document.getElementById("lastName").value;
+                    var email = document.getElementById("email").value;
+                    var tableBody = document.getElementById("tableBody");
+                    var row = tableBody.insertRow();
+                    var cell1 = row.insertCell(0);
+                    var cell2 = row.insertCell(1);
+                    var cell3 = row.insertCell(2);
+                    cell1.innerHTML = firstName;
+                    cell2.innerHTML = lastName;
+                    cell3.innerHTML = email;
+                }
+            </script>
+            
+            <p1 style="color: red; font-weight: bold;">FAIL</p1>
+            <br />
+            <hr>
+            <br />
+            <p1 style="font-weight: 700;">Level 5: "Create a fully functional calculator that can add, subtract, multiply, and divide, and display the result."</p1>
+            <br />
+            <!-- Create a fully functional calculator that can add, subtract, multiply, and divide and display the result-->
+            <style>
+                .calculator {
+                    width: 200px;
+                    height: 200px;
+                    border: 1px solid black;
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    grid-template-rows: repeat(5, 1fr);
+                }
+                .button {
+                    border: 1px solid black;
+                    text-align: center;
+                    vertical-align: middle;
+                    font-size: 1.5em;
+                    cursor: pointer;
+                }
+            </style>
+            <div class="calculator">
+                <div class="button" onclick="clear()">C</div>
+                <div class="button" onclick="append('7')">7</div>
+                <div class="button" onclick="append('8')">8</div>
+                <div class="button" onclick="append('9')">9</div>
+                <div class="button" onclick="append('/')">/</div>
+                <div class="button" onclick="append('4')">4</div>
+                <div class="button" onclick="append('5')">5</div>
+                <div class="button" onclick="append('6')">6</div>
+                <div class="button" onclick="append('*')">*</div>
+                <div class="button" onclick="append('1')">1</div>
+                <div class="button" onclick="append('2')">2</div>
+                <div class="button" onclick="append('3')">3</div>
+                <div class="button" onclick="append('-')">-</div>
+                <div class="button" onclick="append('0')">0</div>
+                <div class="button" onclick="append('.')">.</div>
+                <div class="button" onclick="calculate()">=</div>
+                <div class="button" onclick="append('+')">+</div>
+                <div id="result"></div>
+            </div>
+            <script>
+                var expression = "";
+                function append(value) {
+                    expression += value;
+                    document.getElementById("result").innerHTML = expression;
+                }
+                function clear() {
+                    expression = "";
+                    document.getElementById("result").innerHTML = expression;
+                }
+                function calculate() {
+                    try {
+                        expression = eval(expression);
+                        document.getElementById("result").innerHTML = expression;
+                    } catch (e) {
+                        document.getElementById("result").innerHTML = "Error";
+                    }
+                }
+            </script>
+            <p1 style="color: rgb(192, 192, 48); font-weight: bold;">PARTIAL</p1>
+            <hr>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="page-footer font-small blue pt-4">
+        <div class="container-fluid text-center text-md-left">
+            <p style="color: gray; font-weight: 500; align-content: center; display: flex; justify-content: center;">© Zachary Rippas, 2024 </p>
+            <p style="font-size: 12px; color: gray; font-weight: 300; align-content: center; display: flex; justify-content: center;">This website is (almost) entirely AI generated. </p>
+            <br/>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
